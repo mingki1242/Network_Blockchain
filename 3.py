@@ -9,7 +9,6 @@ token = f.encrypt(data.encode()).decode()
 print("암호문 : " + token)
 E_fd.write(token)
 E_fd.close()
-
 E_fd = open("encrypted.txt" , 'r')
 _data = E_fd.read()
 d = f.decrypt(_data.encode()).decode()

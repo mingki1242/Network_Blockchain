@@ -1,6 +1,4 @@
 import random
-
-
 c_answer = ""
 p_answer = ""
 def solution(_str):

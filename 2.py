@@ -11,6 +11,7 @@ def Vigenere_sol(_str , Vigenere):
     P_Stream = [0]*len(_str)
     orizin_dict = {'A':0,'B':1,'C':2,'D':3,'E':4,'F':5,'G':6,'H':7,'I':8,'J':9,'K':10, 'L':11, 'M':12, 'N':13,
                    'O':14,'P':15,'Q':16,'R':17,'S':18,'T':19,'U':20,'V':21,'W':22,'X':23,'Y':24,'Z':25}
+
     for i in range(0 ,len(_str)):
         Key_Stream[i] = orizin_dict[Vigenere[i%len(Vigenere)]]
 
@@ -19,7 +20,6 @@ def Vigenere_sol(_str , Vigenere):
 
     for i in range(0 ,len(_str)):
         arr[i] = (P_Stream[i] + Key_Stream[i])%26
-
 
     for i in range(0,len(arr)):
         for j in orizin_dict.keys():
@@ -56,6 +56,7 @@ def Autokey_Cipher_Sol(_str , key):
 
     for i in range(0,len(_str)):
         arr[i] = (Key_Stream[i] + P_Stream[i])%26
+
     for i in range(0,len(arr)):
         for j in orizin_dict.keys():
             if arr[i] == orizin_dict[j]:
@@ -65,6 +66,7 @@ def Autokey_Cipher_Sol(_str , key):
 
     for i in range(0,len(re_arr)):
         re_arr[i] = (arr[i]-Key_Stream[i])%26
+
     for i in range(0,len(re_arr)):
         for j in orizin_dict.keys():
             if re_arr[i] == orizin_dict[j]:
@@ -75,7 +77,7 @@ def Autokey_Cipher_Sol(_str , key):
 
 Str = input("평문 입력 : ")
 Vigenere = input("Vigenere 암호? ")
-print("평문 : " + Vigenere_sol(Str.replace(" ","").upper(),Vigenere.upper()))
+print("복호화 된 평문(Vigenere) : " + Vigenere_sol(Str.replace(" ","").upper(),Vigenere.upper()))
 key_int = int(input("자동 키 암호? : "))
-print("평문 : " + Autokey_Cipher_Sol(Str.replace(" ","").upper(),key_int))
+print("복호화 된 평문(Autokey_Cipher) : " + Autokey_Cipher_Sol(Str.replace(" ","").upper(),key_int))
 
