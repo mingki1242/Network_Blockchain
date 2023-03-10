@@ -3,16 +3,24 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.asymmetric import padding
-
+from cryptography.hazmat.primitives import serialization
 from cryptography.fernet import Fernet
 
-private_key = rsa.generate_private_key(65537,2048,default_backend())
-public_key = private_key.public_key()
+
+with open("private_key.pem","rb") as key_file:
+    private_key = serialization.load_pem_private_key(
+        key_file.read(),None,default_backend()
+    )
+
+with open("public_key.pem","rb") as key_file :
+    public_key = serialization.load_pem_public_key(
+        key_file.read(),
+        default_backend()
+    )
 
 
 message = input("메시지(PlainText)를 입력해주세요 : ")
 message = bytes(message,'utf-8')
-
 
 aes_key = Fernet.generate_key()
 f1 = Fernet(aes_key)
