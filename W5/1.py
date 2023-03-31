@@ -2,11 +2,12 @@ import hashlib
 from bitmap import BitMap
 
 class BloomFilter:
-    n=0
-    def __init__(self , m , k , bm):
+
+    def __init__(self , m , k , bm , n):
         self.m = m
         self.k = k
         self.bm = bm
+        self.n =n
 
     def getPositions(self ,item):
         arr_list = [0 for i in range(self.k)]
@@ -17,6 +18,7 @@ class BloomFilter:
             arr_list[i] = int(hash_data,16) % self.m
         return arr_list
     def add(self , item):
+        self.n = self.n+1
         temp_arr = item
         for i in range(self.bm.size()):
             for j in range(len(temp_arr)):
@@ -41,26 +43,26 @@ class BloomFilter:
             self.bm[i] = 0
     def __repr__(self):
         count = 0
-        print("비트 맵의 길이 : " + self.m)
-        print("해시 함수의 갯수 : " + self.k)
-        for i in len(self.bm):
-            print(self.bm[i])
-        for i in len(self.bm):
+        print("M = " + str(self.m))
+        print("F = " + str(self.k))
+
+        for i in range(self.bm.size()):
             if self.bm[i] == 1:
                 count = count +1
-        print("1인 비트의 수 : " + count)
-        print("항목의 수 : " + self.bm.size())
+        print("1인 비트의 수 : " + str(count))
+        print("항목의 수 : " + str(self.n))
+        print("BitMap = " + str(self.bm))
+
 
 num1 = input("비트맵 길이 : ")
 num2 = input("해시 함수의 수 : ")
 bm = BitMap(int(num1))
-bf = BloomFilter(int(num1) , int(num2) , bm)
-
-
+bf = BloomFilter(int(num1) , int(num2) , bm , 0)
 
 for ch in "AEIOU":
     bf.add(bf.getPositions(ch))
-print("비트 맵 : " + bf.bm.tostring())
+
+bf.__repr__()
 
 for ch in "ABCDEFGHIJ":
     print(ch , bf.contains(bf.getPositions(ch)))

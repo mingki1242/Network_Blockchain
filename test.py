@@ -1,5 +1,7 @@
-a = 0x0000000000001
-b = 0x1
+i = 0
 
-print(a)
-print(b)
+while(1):
+    for i in range(50):
+        i=i+1
+        print(i)
+        break
