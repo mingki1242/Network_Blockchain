@@ -1,5 +1,7 @@
 import hashlib
 import base58check
+from Crypto.Hash import RIPEMD160
+
 
 def Extended_Uclidean(n, b):
     r1, r2 = n, b
