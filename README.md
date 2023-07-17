@@ -27,10 +27,18 @@
 
 ## 🎈실행 방법
 <p>
-  파이썬 파일 MidPoint_Line.py을 실행하여 X , Y 좌표값을 입력하면 선을 그어줍니다<br>
-  <img width="857" alt="그래픽스 과제1" src="https://github.com/mingki1242/MidPoint_Line/assets/86062121/5cf7329f-b998-4d0d-a0e7-5830f83c4cff">
+  W1 폴더 요구사항입니다 <br>
+  <img width="301" alt="w1" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/2f94b491-e90f-4c5f-9ccd-01ffab6bda51"><br>
 
-선에 대한 이동값을 이동하면 선이 이동합니다<br>
-<img width="858" alt="이동 " src="https://github.com/mingki1242/MidPoint_Line/assets/86062121/0b75a544-35c9-4230-b2f6-0284ff2a7548">
+  1.py , 2.py를 컴파일후 실행합니다<br>
+  1.py<br>
+  
+  <img width="614" alt="w1A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/16cddc23-2bfd-453c-b2ca-64fc525070aa">
+
+  2.py<br>
+  
+  <img width="617" alt="w1B" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/5895b74b-5388-4a6b-b854-e13429a26ed5">
+
+
 
 </p>
