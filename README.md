@@ -28,8 +28,8 @@
 ## 🎈실행 방법
 <p>
   W1 폴더 요구사항입니다 <br>
-   <img width="614" alt="w1A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/16cddc23-2bfd-453c-b2ca-64fc525070aa">
-   <img width="617" alt="w1B" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/5895b74b-5388-4a6b-b854-e13429a26ed5">
+   <img width="301" alt="w1" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/7d74565a-c1c0-4d0d-a449-a3673e2c522e">
+
 
   1.py , 2.py를 컴파일후 실행합니다<br>
   
@@ -38,8 +38,9 @@
   <img width="614" alt="w1A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/16cddc23-2bfd-453c-b2ca-64fc525070aa">
 
   2.py<br>
+  <img width="616" alt="2222222" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/432ae2a1-2923-476b-bf18-8c104cfca5de">
+
   
-  <img width="608" alt="w222" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/96ec5cdb-4136-4887-8d71-a7e351c226cb">
 
   3.py<br>
   <img width="194" alt="data" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/b9331e83-9d44-4961-8355-15a912501ed4"> <br>
