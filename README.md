@@ -28,15 +28,15 @@
 ## 🎈실행 방법
 <p>
   ❤️W1 폴더 요구사항입니다 <br>
-   <img width="301" alt="w1" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/7d74565a-c1c0-4d0d-a449-a3673e2c522e">
+   <img width="301" alt="w1" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/7d74565a-c1c0-4d0d-a449-a3673e2c522e"><br>
 
 
   1.py , 2.py를 컴파일후 실행합니다<br>
   
   😊1.py<br>
-  <img width="614" alt="w1A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/16cddc23-2bfd-453c-b2ca-64fc525070aa">
+  <img width="614" alt="w1A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/16cddc23-2bfd-453c-b2ca-64fc525070aa"><br>
   😊2.py<br>
-  <img width="616" alt="2222222" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/432ae2a1-2923-476b-bf18-8c104cfca5de">
+  <img width="616" alt="2222222" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/432ae2a1-2923-476b-bf18-8c104cfca5de"><br>
   😊3.py<br>
   <img width="194" alt="data" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/b9331e83-9d44-4961-8355-15a912501ed4"> <br>
   <img width="789" alt="1-3" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/26ca6822-3e8d-43c1-8b4a-b3854c2b5df5"><br>
@@ -51,20 +51,20 @@
 
 <p>
   ❤️W2 폴더 요구사항입니다 <br>
-  <img width="365" alt="W2" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/60944338-c858-4220-8dd4-08fd932b9cff">
-  <img width="365" alt="W2A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/4f2d78da-5502-4e9d-a045-8e4d7f1a54b3">
+  <img width="365" alt="W2" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/60944338-c858-4220-8dd4-08fd932b9cff"><br>
+  <img width="365" alt="W2A" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/4f2d78da-5502-4e9d-a045-8e4d7f1a54b3"><br>
 
-   1.py<br>
-  <img width="580" alt="1" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/8efbffdd-159e-4fba-952e-7a31f201a128">
+   😊1.py<br>
+  <img width="580" alt="1" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/8efbffdd-159e-4fba-952e-7a31f201a128"><br>
   
 
-   2.py<br>
+   😊2.py<br>
 
   case 1 : <br>
-  <img width="589" alt="11" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/7ea5fe0c-41e6-4e37-980f-43b684536213">
+  <img width="589" alt="11" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/7ea5fe0c-41e6-4e37-980f-43b684536213"><br>
 
   case 2 : <br>
-  <img width="598" alt="22" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/e673c389-9687-4318-a546-48b22559b364">
+  <img width="598" alt="22" src="https://github.com/mingki1242/Network_Blockchain/assets/86062121/e673c389-9687-4318-a546-48b22559b364"><br>
 
 
   
