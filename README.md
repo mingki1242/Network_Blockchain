@@ -23,7 +23,7 @@
 </p>
 
 ## 🛶별첨
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> : <a href = "[https://github.com/mingki1242/MidPoint_Line.git](https://github.com/mingki1242/Network_Blockchain.git)"> 깃허브 링크 </a><br>
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> : <a href = "https://github.com/mingki1242/Network_Blockchain.git"> 깃허브 링크 </a><br>
 
 ## 🎈실행 방법
 <p>
